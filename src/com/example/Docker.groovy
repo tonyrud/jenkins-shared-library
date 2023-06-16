@@ -24,4 +24,3 @@ class Docker implements Serializable {
             script.sh "docker push $imageName"
         }
     }
-}
