@@ -1,6 +1,6 @@
 #!/user/bin/env groovy
 
 import com.example.Docker
-def call() {
-    return new Docker(this).dockerLogin()
+def call(String repoName) {
+    return new Docker(this).dockerLogin(repoName)
 }
